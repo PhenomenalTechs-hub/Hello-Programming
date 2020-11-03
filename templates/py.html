@@ -1,0 +1,41 @@
+{% extends 'base.html' %}{% block title %} Python | Programming Languages |
+{%endblock title %} {% block body %}
+<style>
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainContent {
+    padding: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .mainText {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+  }
+</style>
+<div class="mainContent">
+  <div class="image">
+    <img src="static/img/py.png" height="30%" width="30%" />
+  </div>
+  <div class="text">
+    <span class="mainText"
+      >Python is a high level general-purpose programming language. It uses a
+      multi-paradigm approach, meaning it supports procedural, object-oriented,
+      and some functional programming constructs. It was created by Guido van
+      Rossum as a successor to another language (called ABC) between 1985 and
+      1990, and is currently used on a large array of domains like web
+      development, desktop applications, data science, DevOps, and
+      automation/productivity. Python is developed under an OSI-approved open
+      source license, making it freely usable and distributable, even for
+      commercial use. Python's license is administered by the Python Software
+      Foundation.
+    </span>
+  </div>
+</div>
+
+{% endblock body %}
